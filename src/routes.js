@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 
 export default function Routes() {
   return (
-    <Switch>
+    <Switch classeName="body">
         {/* <Route path="/login" exact component={Logout} />
         <Route path="/sair" exact component={Logout} />
         <Route path="/gu-login/:token" exact component={GuLogin} /> */

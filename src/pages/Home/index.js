@@ -14,7 +14,7 @@ function Home() {
     e.preventDefault()
     setvisivel(true)
   }
-  return (<div>
+  return (<div className='home'>
       <h1>Boa noite!</h1>
       {/* {
         visivel ? <Contato></Contato> : <></>
