@@ -30,7 +30,9 @@
 
 .estilo-card{
     
-    margin-top: 5% !important;
+    margin: 5% 10% 5% 10% !important;
     display: flex;
     flex-direction: row;
+    height: 40rem;
+    width: 95%;
 }

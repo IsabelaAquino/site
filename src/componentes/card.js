@@ -5,14 +5,11 @@ import logotipo from "../img/logotipo.jpeg"
 // import { Container } from './styles';
 
 function card(props) {
-  return <Card style={{ width: '22rem' }}>
+  return <Card style={{ width: '22rem', marginRight:"20px"}}>
   <Card.Img variant="top" src={logotipo} />
-  <Card.Body>
+  <Card.Body style={{overflowY:"scroll"}}>
     <Card.Title>{props.title}</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
+    <Card.Text style={{textAlign: 'justify'}}>{props.texto} </Card.Text>
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>

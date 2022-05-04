@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExpand } from "@fortawesome/free-solid-svg-icons"; 
 import Card from "../../componentes/card"
 import dados from "../../dados/dados.json"
+import Footer from "../../componentes/footer"
 
 
 
@@ -40,11 +41,12 @@ function Home() {
   <div className="estilo-card">
   {
     dados.map((dado, i)=>(
-      <Card key={i} title={dado.titulo}/>
+      <Card key={i} title={dado.titulo} texto={dado.texto}/>
+      
     ))
   }
   </div>
-  
+  <Footer></Footer>
       
   </div>)
 }
