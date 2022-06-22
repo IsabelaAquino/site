@@ -1,8 +1,11 @@
-.body{
-  margin-top: 3rem !important;
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
 }
 
-.animeLeft{
+/* .animeLeft{
   transform: translateX(-20px);
   opacity: 0;
   animation: animeLeft .3s forwards;
@@ -15,14 +18,15 @@
       opacity: initial;
     }
   
-  }
+  } */
 
-img {
-  max-width: 95%;
-  border-radius: .5rem;
+.preco{
+
 }
 
-
-body{
-  background-color: #e8f3ff !important;
+.descricao{
+    
+}
+.title{
+    text-decoration: none;
 }

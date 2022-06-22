@@ -17,6 +17,7 @@ function Header() {
           <ul>
               <Link to={"/"} className='link'>Home</Link>
               <Link to={"/contato"} className='link'>Contatos</Link>
+              <Link to={"/produtos"} className='link'>Produtos</Link>
           </ul>
         </div>
               
